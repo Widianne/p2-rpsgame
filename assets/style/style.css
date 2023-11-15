@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+h1, h2, p {
+    color: aliceblue;
+}
+
+
+  section {
+    height: 100vh;
+    background-color: rgb(214, 86, 86);
+    
+
+  }
+
+
+body {
+    background-color: rgb(240, 240, 240);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+} 
+
+/*css for responsive images*/
+#reg-img {
+    max-width: 33%;
+    height: auto;
+    transform: rotate(35deg);
+    margin-right: 10px; /* Adjust the margin to create space between images */
+  }
+  
+  /* Mirror hand */
+  #mirror-image {
+    transform: scaleX(-1) rotate(35deg);
+    height: auto;
+    max-width: 33%;
+  }
+  
+  /* Container for hands */
+  .hands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* Ensure container doesn't exceed viewport width */
+    margin: 0 auto;
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
