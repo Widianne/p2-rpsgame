@@ -1,6 +1,5 @@
 /*google font for all*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 * {
     padding: 0;
@@ -16,10 +15,10 @@ body {
 
 }
 
+h1, h2 {
+    color: rgb(249, 249, 249);
+    font-family: 'DotGothic16', sans-serif;
 
-h1, h2, p {
-    font-family: 'DotGothic16', serif;
-    color: aqua;
 }
 
 
@@ -50,14 +49,8 @@ h1, h2, p {
 
 
 
-/* body {
-    background-color: rgb(240, 240, 240);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  
-} 
 
+/*
 
 section {
     height: 100vh;
