@@ -4,18 +4,6 @@
     box-sizing: border-box;
   }
 
-h1, h2, p {
-    color: aliceblue;
-}
-
-
-  section {
-    height: 100vh;
-    background-color: rgb(214, 86, 86);
-
-  }
-
-
 body {
     background-color: rgb(240, 240, 240);
     min-height: 100vh;
@@ -23,6 +11,34 @@ body {
     flex-direction: column;
   
 } 
+
+h1, h2, p {
+    color: aliceblue;
+}
+
+  section {
+    height: 100vh;
+    background-color: rgb(214, 86, 86);
+
+  }
+
+  .score {
+    color: blueviolet;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .score h2 {
+    font-size: 30px;
+  }
+
+  .score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
 
 /*css for responsive images*/
 #reg-img {
