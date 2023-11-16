@@ -1,3 +1,7 @@
+/*google font for all*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
 * {
     padding: 0;
     border: 0;
@@ -5,6 +9,48 @@
   }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+
+h1, h2, p {
+    font-family: 'DotGothic16', serif;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-color: rgb(240, 240, 240);
     min-height: 100vh;
     display: flex;
@@ -12,14 +58,9 @@ body {
   
 } 
 
-h1, h2, p {
-    color: aliceblue;
-}
 
-  section {
+section {
     height: 100vh;
-    background-color: rgb(214, 86, 86);
-
   }
 
   .score {
@@ -40,27 +81,28 @@ h1, h2, p {
     font-size: 25px;
   }
 
-/*css for responsive images*/
+/*css for responsive images
 #reg-img {
     max-width: 33%;
     height: auto;
     transform: rotate(35deg);
     margin-right: 10px; /* Adjust the margin to create space between images */
-  }
+
   
-  /* Mirror hand */
+  /* Mirror hand 
   #mirror-image {
     transform: scaleX(-1) rotate(35deg);
     height: auto;
     max-width: 33%;
   }
   
-  /* Container for hands */
+  /* Container for hands 
   .hands {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 100%; /* Ensure container doesn't exceed viewport width */
-    margin: 0 auto;
-    overflow-x: hidden; /* Hide horizontal overflow */
-  }
+    /*margin: 0 auto;
+    /*overflow-x:  hidden; Hide horizontal overflow */
+  
+  
