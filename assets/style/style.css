@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    
   }
 
 body {
@@ -12,12 +13,16 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(159, 72, 72);
+    
+    
 }
 
-.game {
-    flex-grow: 1; /* Allow the game section to grow to fill the available space */
+header {
+    background-color: rgb(0, 15, 37);
+    padding-bottom: 10px;
 }
+
 
 h1 {
     text-align: center;
@@ -26,67 +31,57 @@ h1 {
     font-family: 'DotGothic16', sans-serif;
     letter-spacing: 2px;
     margin: 0;
-    
-}
-
-h2, p {
+   
+ }
+ 
+ 
+ h2, p {
     color: rgb(249, 249, 249);
     font-family: 'DotGothic16', sans-serif;
     letter-spacing: 2px;
-    
-}
-
-button {
-    font-family: 'DotGothic16', sans-serif;
-    font-size: 14px; /* Adjust the font size as needed */
-    letter-spacing: 2px; /* Adjust the letter spacing as needed */
-    color: rgb(91, 181, 255);
-    cursor: pointer;
-    border: 2px solid; /* Adjust the border size as needed */
-    padding: 0.2em 0.4em; /* Adjust the padding as needed */
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    
-}
-
-
-.score {
+   
+ }
+ 
+ 
+ .score {
     display: flex;
     justify-content:space-between;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 10px;
   }
-
+ 
+ 
   .score h2 {
     font-size: 20px;
     color: rgb(91, 181, 255);
     margin: 0;
-
+ 
+ 
   }
-
+ 
+ 
   .score p {
     text-align: center;
     font-size: 20px;
     color: rgb(91, 181, 255);
     margin: 0;
-    
+   
   }
 
-  .options {
+  
+/*css for starter for imgs*/
+.game-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 25%;
     margin: 20px 0;
+    
+}
 
-  }
-
-/*css for responsive images*/
-.player-hand {
-    max-width: 25%;
+#player-choice {
+    max-width: 33%;
     height: auto;
     transform: rotate(35deg);
     margin-right: 10px; /* Adjust the margin to create space between images */
@@ -94,30 +89,51 @@ button {
     border-radius: 50%;
     margin: 0;
    /* border: 2px solid rgb(249, 249, 249); */
- 
-}
+    
+ }
 
-.computer-hand, #mirror-image {
+ #computer-choice {
     height: auto;
-    max-width: 25%; 
+    max-width: 33%;
     padding: 10px;
-    transform: scaleX(-1) rotate(35deg); /* Mirror the tilt for the mirrored image */
+    transform: scaleX(-1) rotate(35deg);
     border-radius: 50%;
     margin: 0;
    /* border: 2px solid rgb(249, 249, 249); */
-    
+   
+ }
+ 
+
+
+ button {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: rgb(91, 181, 255);
+    cursor: pointer;
+    border: 2px solid;
+    padding: 0.2em 0.4em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
-/* Container for hands */
-#hands {
+#rock, #paper, #scissors {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    max-width: 100vw; /* Ensure the container doesn't exceed viewport width */
-    margin: 0;
-    overflow: hidden; /* Hide both horizontal and vertical overflow */
+    justify-content: center;
+
 }
 
+.btn-choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+ 
+  }
 
 .resetGame {
     display: flex;
@@ -125,7 +141,103 @@ button {
     justify-content: center;
     padding-bottom: 30px;
     margin-top: auto; /* Push the resetGame section to the bottom */
+ }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+     
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(159, 72, 72);
   
+    }
+    
+    header {
+        background-color: rgb(0, 15, 37);
+        padding-bottom: 10px;
+  
+    }
+  
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      color: rgb(249, 249, 249);
+      font-family: 'DotGothic16', sans-serif;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+  
+    .score {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+      padding-top: 10px;
+    }
+  
+    .score h2,
+    .score p {
+      font-size: 12px;
+    }
+  
+    button {
+      font-family: 'DotGothic16', sans-serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: rgb(91, 181, 255);
+      cursor: pointer;
+      border: 1px solid;
+      padding: 0.1em 0.3em;
+      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+  
+    #rock, #paper, #scissors {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .game-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        margin: 20px
+        
+    }
+  
+    #player-choice {
+      max-width: 50%;
+      height: auto;
+      transform: rotate(35deg);
+      margin-right: 10px;
+      padding: 10px;
+      border-radius: 50%;
+      margin: 0;
+    }
+  
+    #computer-choice {
+      height: auto;
+      max-width: 50%;
+      padding: 10px;
+      transform: scaleX(-1) rotate(35deg);
+      border-radius: 50%;
+      margin: 0;
+    }
+  }
   

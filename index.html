@@ -29,51 +29,64 @@
 
   <body>
 
-    <header><h1>Rock Paper Scissors</h1></header>
+    <header>
+        <h1>Rock Paper Scissors</h1>
 
-    <section class="game">
-        <div class="score">
-            <div class="player-score">
+    <section class="score">
+            <div id="player-score">
               <h2>Player</h2>
               <p>0</p>
             </div>
-            <div class="computer-score">
+
+            <div id="computer-score">
               <h2>Computer</h2>
               <p>0</p>
             </div>
-          </div>
-
-          <div class="options">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
-          </div>
     </section>
+    </header>
+          
+    <section class="choices">
+            <div class="btn-choices">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+              </div>
 
+              <div class="game-img">
+                <img src="assets/imgs/rps-img/hand.jpg" id="player-choice">
+                 <!--
+                <img src="assets/imgs/rps-img/rock-min.jpg" id="player-choice">
+                <img src="assets/imgs/rps-img/paper-min.jpg" id="player-choice">
+                <img src="assets/imgs/rps-img/scissors-min.jpg" id="player-choice">
+                 -->
 
-    <section class="theMatch">
-        <div class="match fadeOut">
-          <div id="hands">
-            <img class="player-hand" src="assets/imgs/rps-img/hand.jpg" alt="hand 1" />
-            <img class="computer-hand" id="reg-hand" src="assets/imgs/rps-img/hand.jpg" alt="hand 2" />
+                <img src="assets/imgs/rps-img/hand.jpg" id="computer-choice">
+                <!--
+                <img src="assets/imgs/rps-img/rock-min.jpg" id="computer-choice">
+                <img src="assets/imgs/rps-img/paper-min.jpg" id="computer-choice">
+                <img src="assets/imgs/rps-img/scissors-min.jpg" id="computer-choice">
+                -->
+             </div>
+        
 
-            <!--
-            <img src="assets/imgs/rps-img/rock-min.jpg" alt="">
-            <img src="assets/imgs/rps-img/paper-min.jpg" alt="">
-            <img src="assets/imgs/rps-img/scissors-min.jpg" alt="">
-            -->
-
-          </div>
-      </section>
-    
-    <section>
-
-       <div class="resetGame">
-        <h3 id="wtext"></h3>
-        <button id="reset">Reset</button>
-       </div>
+        <div class="resetGame">
+            <h3 id="wtext"></h3>
+            <button id="reset">Reset</button>
+        </div>
+        
     </section>
-
-    <script src="script.js"></script>
-  </body>
+    <script src="js/script.js"></script>
+</body>
 </html>
+
+<!--<div id="choices">
+            <img   src="assets/imgs/rps-img/rock-min.jpg" alt="rock">
+            <img src="assets/imgs/rps-img/paper-min.jpg" alt="paper">
+            <img src="assets/imgs/rps-img/scissors-min.jpg" alt="scissors">
+
+             <section class="theMatch">
+            <div class="match fadeOut"></div>
+              <div id="hands"></div>
+          </section>
+        </div>-->
+    
