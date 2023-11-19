@@ -265,39 +265,33 @@ footer {
 
   button {
     font-family: 'DotGothic16', sans-serif;
-    font-size: 10px; /* Adjust the font size */
+    font-size: 14px;
     letter-spacing: 2px;
     color: rgb(91, 181, 255);
     cursor: pointer;
-    border: 1px solid;
-    padding: 0.1em 0.2em; /* Adjust the padding */
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px,
-      4px 4px 0px 0px, 5px 5px 0px 0px;
+    border: 2px solid;
+    padding: 0.2em 0.4em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+      5px 5px 0px 0px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
   }
-
+  
+  /*style for when button is clicked*/
   button:active {
     background-color: rgb(0, 15, 37);
     color: rgb(91, 181, 255);
   }
-
+  
+  /*styles container with class "btn-choices, adds space*/
   .btn-choices {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Adjust the gap */
+    gap: 30px;
     margin: 20px 0;
-    padding-bottom: 10px;
-  }
-
-  .resetGame {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 30px;
-    margin-top: auto; /* Push the resetGame section to the bottom */
   }
 
   .game-img {
@@ -338,3 +332,16 @@ footer {
     padding-right: 2vh;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

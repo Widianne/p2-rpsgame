@@ -93,6 +93,7 @@ function selectChoice() {
   }
 }
 
+/* informs player of the game's outcome */
 function endGame(winner) {
   console.log(winner);
   Swal.fire({
