@@ -132,6 +132,28 @@ button:active {
   margin-top: auto; /* Push the resetGame section to the bottom */
 }
 
+/* Customize pop up */
+.swal2-popup {
+    border-radius: 5px;
+    background-color:  rgb(249, 249, 249);
+    max-width: 200px;
+
+  }
+  
+  /* Customize the title */
+  .swal2-title {
+    font-size: 20px;
+    color: rgb(0, 15, 37);
+  }
+  
+  /* Customize the icon */
+  .swal2-icon img {
+    width: 10px;
+    height: 10px;
+    max-width: 300px;
+  }
+  
+
 /*page footer with signature of page developer*/
 footer {
   margin-top: auto;
@@ -284,6 +306,28 @@ footer {
     color: rgb(91, 181, 255);
   }
   
+
+/* Customize pop up */
+.swal2-popup {
+    border-radius: 5px;
+    background-color:  rgb(249, 249, 249);
+    max-width: 200px;
+
+  }
+  
+  /* Customize the title */
+  .swal2-title {
+    font-size: 20px;
+    color: rgb(0, 15, 37);
+  }
+  
+  /* Customize the icon */
+  .swal2-icon img {
+    width: 10px;
+    height: 10px;
+    max-width: 300px;
+  }
+
   /*styles container with class "btn-choices, adds space*/
   .btn-choices {
     display: flex;
