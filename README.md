@@ -52,6 +52,5 @@ https://unsplash.com/photos/clear-glass-diamond-on-white-background-H4RMEqnl-lM
 HAND LOL
 https://unsplash.com/photos/a-black-and-white-photo-of-a-dripping-hand-2FWcYzN7X_c
 
-SKULL LOL
-https://unsplash.com/photos/a-black-and-white-photo-of-a-human-skull-1PtM6b85sdw
+
 
