@@ -1,42 +1,155 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **p2-rpsgame**
+## **Site Overview**
+A simple rps game with a gothic/retro vibe. Minimal but does what it is supposed to do in terms of being a little game. The site is minimal but engages w the user and shows scores n imgs accordingly.
+​
+Responisve img proof added
 
-Welcome,
+live site: https://widianne.github.io/p2-rpsgame/
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+github: https://github.com/Widianne/p2-rpsgame
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Wireframes***](#wireframes)
+    * [***Color Scheme***](#color-scheme)
+    * [***Typography**](#typography)
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    * [***Header Element:***](#header-element)
+    * [***The rest of your features***](#features)
+    * [**Footer**](#footer)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+1. [**Deployment**](#deployment)
+1. [**Tech**](#tech)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**General reference**](#general-reference)
+    * [**Content**](#content)
+    * [**Media**](#media)
+​
+## **Planning stage**
+I instantly knew I wanted to go for a dark mood when creating the site. And compared to my first project, this is actually pretty much spot on to my original design idea. I started off by making sure to include all the necessary HTML, added in some basic CSS to see my changes and divide the screen accordingly. Lastly, I did the JS and made sure it worked, and then worked on aesthetic details and responsiveness
+### **Target Audiences:**
+Goths, gals, nbs and nerdy spooky millennial witches (born between 1981 and 1996)
+Fans of the dark and retro game vibes
+​
+### **User Stories:**
 
-## Codeanywhere Reminders
+​
+* As a user, I want to play a fun easy game to relax
+* As a user, I want instant response.
+* As a user, I want to play this game on severl devices 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+​
+### **Site Aims:**
+​
+A site for the gothic rock paper scissor fans to relax and play
+​
+​
+### **Wireframes:**
+​
+None, the page looks exactly like I wanted it to
+​
+### **Color Scheme:**
+​
+I started by searching for the right images that matched my gothic vision and took inspiration from my findings. It was important for me to create a site with high-contrasting aesthetics that work well together, providing a visually unique experience, given that the overall site is simple and just a game. My inspiration stemmed from my gothic side, Halloween, and my unusual affinity for old scissors (a wild thing to like, I know) and crystals. Additionally, my profound love for vintage and retro things played a significant role. I mainly wanted the colors to be minimal but have a good moody and poppy feel. Hence, the combination of black and deep blue contrasting with bone white and baby blue, giving the exact spooky-cute vibe I was aiming for
 
-`python3 -m http.server`
+#-colors:
+black: 	#000000
+deep blue: #000f25
+baby blue: 	#5bb5ff
+bone white: #f9f9f9
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+​
+## **Typography**
+​
+Found this cute retro squere font that I just had to have! DotGothic16 <3
+Decided to only go for one to keep it simple and let the retro design be represented by the font.
+​
+​
+## **Current Features Common to all pages**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Only one page, reset button to restart the game at any time, score counter, and representative imagery collaborating with button choices.
+​
+#### *Navigation Bar:*
+None, one page game
+​
+​
+#### *features
+* Header with game/site name and scores
+* Buttons for choices
+* Imagery representing the match
+* Popup for instant response for the user
+* Reset button for restarting the game at any time
+* Once computer or player reaches 10, game restarts
+* Start/reset image is represented by hands
+* All these choices provide a fun and engaging game with clear communication
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+​
+## **Future-Enhancements**
+​
+* As I am new to JS and it was honestly so hard to work with, I focused on making the JS basic and functional, and that took time.
+* As future improvements, it would be fun to add a rules page.
+* Perhaps make a community of sorts, sort of like Wordfeud, where you can play with either your friends or strangers across the world.
+* The possibility to change the imagery to match the user's personal goth vibe.
+* Would also be fun to create a rigged version where the computer always wins.
+​
+## **Testing Phase**
+​
+This is the hardest bit of the readme, when we have completed a page we need to discuss testing.
+​
+Here is a good idea to talk about how and why you have tested with certain tools and validators so here a list of things to talk through
+​
+* Responsiveness - How do you test this, dev tools? checking on multiple devices?
+​
+* Functionality - Each feature needs to be tested before something is complete, talk about the process, click each link check each image, does form validation work, if your using javascript or anything else, does it always behave as the user expects
+​
+* Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
+​
+​
+## **Bugs**
+​
+We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
+​
+* Issue - When on mobile the user had horizontal scroll with items overflowing
+* Cause - The images had absolute positioning and caused them to go off screen
+* Resolution - Changed the width of the image to stay within the confines of the screen.
+​
+***
+## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
+​
+1. From the project's [repository](pageurl), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+​
+You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+***
+​
+## **Tech**
+​
+Here mention what technologies you've used for example
+​
+- HTML
+- CSS
+​
+## **Credits**
+### **Honorable mentions**
+​
+It's always nice to mention those that helped you get there, if people gave you support on slack or the local cat scared you into completing give them a mention!
+​
+### **Content:**
+​
+If you took any code from online source and by this i mean copy paste with zero changes mention it here!
+  
+### **Media:**
+​
+Links to the locations of images if you've used them from an online source!
 
 IMG LINKS
 
