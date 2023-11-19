@@ -86,9 +86,9 @@ function selectChoice() {
   document.getElementById('player-score').innerText = playerScore;
   document.getElementById('computer-score').innerText = computerScore;
 
-  if (playerScore >= 10) {
+  if (playerScore >= 3) {
     endGame('player');
-  } else if (computerScore >= 10) {
+  } else if (computerScore >= 3) {
     endGame('cpu');
   }
 }
