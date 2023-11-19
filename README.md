@@ -124,6 +124,7 @@ I deployed the page on GitHub pages via the following procedure: -
 You  can find the live site via the following URL - [live webpage](https://widianne.github.io/p2-rpsgame/)
 ***
 ​
+
 ## **Tech**
 ​
 - HTML
