@@ -99,25 +99,18 @@ None, one page game
 * Would also be fun to create a rigged version where the computer always wins.
 ​
 ## **Testing Phase**
+
+* Responsiveness - I had the page up consatly in google chrome and changed to diffrant screans to make sure it all worked 
 ​
-This is the hardest bit of the readme, when we have completed a page we need to discuss testing.
+* Functionality - Took a lot o errors before I got it all to work. At first it was only the reset button working but I did get evertyhing to work in the end
 ​
-Here is a good idea to talk about how and why you have tested with certain tools and validators so here a list of things to talk through
-​
-* Responsiveness - How do you test this, dev tools? checking on multiple devices?
-​
-* Functionality - Each feature needs to be tested before something is complete, talk about the process, click each link check each image, does form validation work, if your using javascript or anything else, does it always behave as the user expects
-​
-* Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
+* Validators - All good in the validators!
 ​
 ​
 ## **Bugs**
 ​
-We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
-​
-* Issue - When on mobile the user had horizontal scroll with items overflowing
-* Cause - The images had absolute positioning and caused them to go off screen
-* Resolution - Changed the width of the image to stay within the confines of the screen.
+* Tons of JS bugs, like for a long time I had all the code written, but it didn't want to connect, so it took a lot of time to actually understand and connect everything right.
+* I'd love for the imagery to be a little bigger on the smallest screen, but in the end, it works, and the aesthetics became second nature.
 ​
 ***
 ## **Deployment**
@@ -128,24 +121,104 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
+You  can find the live site via the following URL - [live webpage](https://widianne.github.io/p2-rpsgame/)
 ***
 ​
 ## **Tech**
 ​
-Here mention what technologies you've used for example
-​
 - HTML
 - CSS
-​
+​- JavaScript
+
+### HTML Validation
+Date: 20 november 2023
+Time 00.30
+
+Link: https://validator.w3.org/nu/?doc=https%3A%2F%2Fwidianne.github.io%2Fp2-rpsgame%2F
+
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 4, column 5; to line 4, column 28
+
+head>↩    <meta charset="UTF-8" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 5, column 5; to line 5, column 76
+
+8" />↩    <meta name="viewport" content="width=device-width, initial-scale=1.0" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 6, column 5; to line 6, column 59
+
+0" />↩    <meta http-equiv="X-UA-Compatible" content="ie=edge" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 8, column 5; to line 11, column 6
+
+ns-->↩    <meta↩      name="description"↩      content="game, play, classic, rock, paper, scissors, online"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 13, column 5; to line 16, column 6
+
+te-->↩    <meta↩      name="kewords"↩      content="game, play, classic, rock, paper, scissors, online"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 18, column 5; to line 18, column 59
+
+ss-->↩    <link rel="stylesheet" href="assets/style/style.css" />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 20, column 5; to line 23, column 6
+
+nt-->↩    <link↩      rel="stylesheet"↩      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 25, column 5; to line 29, column 6
+
+on-->↩    <link↩      rel="icon"↩      type="image/icon"↩      href="assets/favicon/scissors-solid.svg"↩    />↩    <
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 58, column 9; to line 58, column 106
+
+>↩        <img src="assets/imgs/rps-img/hand.jpg" id="player-choice" alt="imgs representing the 3 choises"/>↩↩    
+
+Info: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+
+From line 60, column 9; to line 60, column 108
+
+↩↩        <img src="assets/imgs/rps-img/hand.jpg" id="computer-choice" alt="imgs representing the 3 choises"/>↩     
+
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 50, column 5; to line 50, column 29
+
+der>↩↩    <section class="choices">↩   
+
+### CSS Validation
+Date: 20 nov 2023
+Time: 00.37
+
+Link: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwidianne.github.io%2Fp2-rpsgame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
+
+
 ## **Credits**
+
 ### **Honorable mentions**
 ​
-It's always nice to mention those that helped you get there, if people gave you support on slack or the local cat scared you into completing give them a mention!
+The good old www and candy haha!
 ​
 ### **Content:**
 ​
-If you took any code from online source and by this i mean copy paste with zero changes mention it here!
+Nope!
   
 ### **Media:**
 ​
@@ -153,16 +226,16 @@ Links to the locations of images if you've used them from an online source!
 
 IMG LINKS
 
-SISSORS 
+SCISSORS
 https://unsplash.com/photos/gray-steel-scissors-SmocKx2oDZc
 
 ROCK 
 https://unsplash.com/photos/clear-glass-diamond-on-white-background-H4RMEqnl-lM
 
 PAPER
-https://unsplash.com/photos/clear-glass-diamond-on-white-background-H4RMEqnl-lM
+https://unsplash.com/photos/grayscale-photo-of-rolled-papers-qmxzyEJ1PSQ
 
-HAND LOL
+HAND
 https://unsplash.com/photos/a-black-and-white-photo-of-a-dripping-hand-2FWcYzN7X_c
 
 
